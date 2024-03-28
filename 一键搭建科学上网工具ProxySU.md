@@ -1,4 +1,4 @@
-**2024年1月1日更新，解决图片显示问题。**
+**2024年2月25日更新。**
 
 ***
 
@@ -108,7 +108,7 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 [国外云盘下载1](https://d2.freessr2.xyz/ProxySU-v2.4.0.zip)  [国外云盘下载2](https://d.dtku35.xyz/ProxySU-v2.4.0.zip)  
 
-**如果在安装过程中总是提示某个错误，也可以尝试其它ProxySU版本，官方其它版本下载**：https://github.com/proxysu/ProxySU/releases
+**如果在安装过程中总是提示某个错误，也可以尝试其它ProxySU版本，官方其它版本下载。下载第一个后缀名为zip的文件，解压后运行ProxySuper.WPF.exe**：https://github.com/proxysu/ProxySU/releases
 
 ## Windows系统需要安装net4.0及以上
 
@@ -165,6 +165,9 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 [自建ss/ssr服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
 [自建v2ray服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
 [自建hysteria服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAhysteria%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
+
+[一键搭建多个协议节点教程](https://github.com/Alvin9999/new-pac/wiki/%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E5%A4%9A%E4%B8%AA%E5%8D%8F%E8%AE%AE%E8%8A%82%E7%82%B9%E6%95%99%E7%A8%8B)  
+
 [自建brook服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAbrook%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
 [自建trojan服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAtrojan%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
 [自建WireGuard VPN服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAWireGuard-VPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 

@@ -1,4 +1,4 @@
-**2024年1月1日更新，解决图片显示问题。**
+**2024年3月26日更新。**
 
 ***
 
@@ -33,10 +33,9 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://www.githubip.xyz/Alvin9999/pac2/master/pp100.png)
+![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
 
-![](https://www.githubip.xyz/Alvin9999/pac2/master/pp101.png)
-
+![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
 
 **vultr改版了，最新开通服务器步骤如图**：
 
@@ -152,10 +151,11 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 ***
 
+```bash
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
-
+```
 ***
 
 **脚本二（SS）**
@@ -164,9 +164,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 ***
 
+```bash
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
+```
 
 ***
 
@@ -236,12 +238,18 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 
 **注意：如果创建的是centos7的服务器，需要使用命令关闭防火墙，否则无法使用代理。CentOS 7.0默认使用的是firewall作为防火墙。**
 
-**查看防火墙状态命令：firewall-cmd --state**
-
-**停止firewall命令：systemctl stop firewalld.service**
-
-**禁止firewall开机启动命令：systemctl disable firewalld.service**
-
+**查看防火墙状态命令**：
+```bash
+firewall-cmd --state
+```
+**停止firewall命令**：
+```bash
+systemctl stop firewalld.service
+```
+**禁止firewall开机启动命令**：
+```bash
+systemctl disable firewalld.service
+```
 ***
 
 **高阶篇**
@@ -265,13 +273,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 
 ***
 
+```bash
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
-
 chmod +x tcp.sh
-
 ./tcp.sh
-
-
+```
 ***
 
 > 如果提示 wget: command not found 的错误，这是你的系统精简的太干净了，wget都没有安装，所以需要安装wget。CentOS系统安装wget命令: yum install -y wget Debian/Ubuntu系统安装wget命令:apt-get install -y wget
@@ -280,7 +286,7 @@ chmod +x tcp.sh
 
 ![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr1.jpg)
 
-操作方法：先安装内核，重启vps让内核生效，再启动对应的加速即可。数字1的BBR/BBR魔改内核对应数字4、5、6的BBR加速、BBR魔改加速和暴力BBR魔改版加速。数字2的BBRplus内核对应数字7的BBRplus加速。数字3的锐速加速内核对应数字8的锐速加速。
+操作方法：先安装内核，重启vps让内核生效，再启动对应的加速即可。数字1的BBR/BBR魔改内核对应数字4、5、6的BBR加速、BBR魔改加速和暴力BBR魔改版加速。数字2的BBRplus内核对应数字7的BBRplus加速。数字3的锐速加速内核对应数字8的锐速加速。（如果服务器系统是Debain10或以上系统，可不用安装内核，直接输入数字4启动bbr原版加速。）
 
 以安装暴力BBR魔改版加速为例，我们先安装对应的内核，输入数字1
 
